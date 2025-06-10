@@ -136,29 +136,21 @@ hr {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 440px) {
   .container {
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
   }
+
 
   h1 {
-    font-size: 32px;
+   margin-top: 0px;
   }
 
-  h3, h4, h5 {
-    font-size: 22px;
-  }
+  
 
   img {
-    max-width: 100%;
-    height: auto;
+    border-radius: 0px;
   }
 
-  table td {
-    font-size: 14px;
-  }
-
-  ul, ol {
-    font-size: 14px;
-  }
 }
