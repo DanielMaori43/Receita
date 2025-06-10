@@ -134,7 +134,11 @@ hr {
 .cor {
   color: #854632;
 }
-
+@media screen {
+    .container{
+        margin-top: 60px;
+    }
+}
 /* Responsividade */
 @media (max-width: 440px) {
   .container {
